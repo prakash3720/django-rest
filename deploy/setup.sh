@@ -3,13 +3,13 @@
 set -e
 
 # TODO: Set to URL of git repo.
-PROJECT_GIT_URL='https://prakash3720@bitbucket.org/prakash3720/todo-app.git'
+PROJECT_GIT_URL='https://github.com/prakash3720/django-rest.git'
 
-PROJECT_BASE_PATH='/usr/local/apps/todo-rest-api'
+PROJECT_BASE_PATH='/usr/local/apps/profiles-rest-api'
 
 echo "Installing dependencies..."
 apt-get update
-apt-get install -y python3-dev python3-venv sqlite python-pip supervisor nginx git django-cors-headers
+apt-get install -y python3-dev python3-venv sqlite python-pip supervisor nginx git
 
 # Create project directory
 mkdir -p $PROJECT_BASE_PATH
