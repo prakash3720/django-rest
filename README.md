@@ -1,6 +1,6 @@
 ## ToDo App
 
-This app is created using **Django(REST API)** and **Vue.js(FrontEnd Framework)**.
+This app is created using **Django(REST API)** and **Vue.js(FrontEnd Framework)**. This Repository has the **REST API** files of the final app.
 
 The User can create an account and once the user logs in, he/she will be given the options to add, edit, view and delete the tasks in his/her ToDo list.
 
